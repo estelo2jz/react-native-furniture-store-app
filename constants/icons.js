@@ -9,7 +9,7 @@ export const menu = require('../assets/icons/menu_icon.png');
 export default {
   search,
   plus,
-  chenron,
+  chevron,
   user,
   cart,
   dashboard,
