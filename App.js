@@ -1,8 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { createStackNavigator } from 'react-navigation-stack';
-import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
+import { NavigationContainer } from '@react-navigation/native';
 // import { createStackNavigator } from '@react-navigation/native';
+import { DefaultTheme } from '@react-navigation/native';
 
 
 import { Home, ItemDetails } from './screens';
@@ -13,7 +14,7 @@ const theme = {
     ...DefaultTheme.colors,
     border: 'transparent',
   }
-}
+};
 
 const Stack = createStackNavigator();
 
