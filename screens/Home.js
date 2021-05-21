@@ -6,6 +6,10 @@ import {
   Text
 } from 'react-native';
 
+// import { Colors } from 'react-native/Libraries/NewAppScreen';
+
+import { images, icons, COLORS, FONTS, SIZES } from '../constants';
+
 const Home = () => {
   return (
     <SafeAreaView>
@@ -17,7 +21,7 @@ const Home = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: COLORS.white.
+    backgroundColor: COLORS.white,
   },
   shadow: {
     shadowColor: '#000',
